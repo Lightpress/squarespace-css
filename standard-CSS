@@ -1,6 +1,4 @@
-//STANDARD SQUARESPACE CODE
-
-//NO HYPHENS
+//STANDARD CSS FIXES
 
 h1, h2, h3{-webkit-hyphens: none;
   -moz-hyphens: none;
