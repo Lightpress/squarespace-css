@@ -1,0 +1,4 @@
+h1, h2, h3{-webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;} 
