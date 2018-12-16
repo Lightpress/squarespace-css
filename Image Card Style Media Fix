@@ -1,0 +1,15 @@
+// Card style stack
+
+@media screen and (max-width: 800px) {
+.sqs-block-image .design-layout-card:not(.sqs-narrow-width) {
+display: block!important;
+}
+
+.sqs-block-image .design-layout-card:not(.sqs-narrow-width) .image-card-wrapper {
+width: 100%;
+}
+
+.sqs-block-image .design-layout-card:not(.sqs-narrow-width)>div:first-child {
+width: 100%;
+}
+}
