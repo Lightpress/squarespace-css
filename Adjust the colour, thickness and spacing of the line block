@@ -1,0 +1,6 @@
+.sqs-block-horizontalrule hr {
+  background-color: #CF000F; /* line colour */
+  height: 5px; /* line thickness */
+  margin-top: 0px; /* top padding */
+  margin-bottom: 0px; /* bottom padding */
+}
