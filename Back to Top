@@ -1,0 +1,64 @@
+ADD THE FOLLOWING CODE TO YOU WEBSITE CODE INJECTION IN THE HEADER SECTION:
+Settings > Advanced > Code Injection
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<a href="#" class="hs-back-to-top"><span class="arrow"></span>Top</a>
+<script>$(document).ready(function(){var o=300;$(window).scroll(function(){$(window).scrollTop()>o?$("a.hs-back-to-top").fadeIn("slow"):$("a.hs-back-to-top").fadeOut("slow")}),$("a.hs-back-to-top").click(function(){return $("html, body").animate({scrollTop:0},700),!1})});
+</script>
+
+ 
+
+ADD THE FOLLOWING CODE TO YOUR WEBSITE CUSTOM CSS PANEL:
+Design > Custom CSS
+
+.hs-back-to-top {
+    font-weight: 500 !important;
+/* adjust this to control the colour */  
+  background-color: #fff;
+    color: #333;
+/* adjust this to control size and position */
+    bottom: 20px;     
+    right: 20px;
+    width: 50px;     
+    height: 50px;
+    display: none;
+    z-index: 999;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+a.hs-back-to-top {
+/* adjust this to control "top" text style */
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8;
+    padding-left: 2px;
+    padding-top: 4px;    
+  }
+
+  a.hs-back-to-top .arrow:before {
+    content: "\e02d";
+    font-family: 'squarespace-ui-font';
+/* adjust this to control arrow styling */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: -4px;
+  }
