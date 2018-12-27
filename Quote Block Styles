@@ -1,0 +1,21 @@
+//Quote Block Styles
+
+//In Index or on One Page
+
+#section-title .sqs-block-quote blockquote {
+  color:#ffffff;
+}
+
+#testimonials-home .sqs-block-quote figcaption {
+  color:#ffffff;
+}
+
+//Site-Wide
+
+.sqs-block-quote blockquote {
+  color:#5a0e76;
+}
+
+.sqs-block-quote figcaption {
+  color:#3b98ac;
+}
