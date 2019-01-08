@@ -1,0 +1,24 @@
+//Testimonial Slider
+
+.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-carousel-pager {
+  color:#ffffff;
+}
+
+.sqs-block-summary-v2 .summary-block-setting-text-align-center .summary-title {display:none;}
+
+.sqs-block-summary-v2 .summary-block-setting-text-align-center .summary-title, .sqs-block-summary-v2 .summary-block-setting-text-align-center .summary-price .product-price, .sqs-block-summary-v2 .summary-block-setting-text-align-center .summary-excerpt p {
+  color:#ffffff;
+  font-size:23px;
+
+}
+
+.summary-thumbnail img {  
+ border-radius: 50%;
+  padding: 5px;
+  max-width: 30%;
+  margin: auto;
+ }
+
+.summary-thumbnail-container { 
+  pointer-events: none !important; 
+}
