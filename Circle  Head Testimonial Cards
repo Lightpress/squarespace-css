@@ -1,0 +1,21 @@
+// Testimonial Cards
+
+#collection-5bd0d0a94192025125b15260 {
+  .sqs-block-image .image-block-outer-wrapper.image-block-v2 .intrinsic img {
+    position: relative;
+    max-width: initial !important;
+    border-radius: 50%;
+    padding: 5px;
+  max-width: 200px!important;
+    margin: auto;}
+    
+.image-block-v2
+    
+{background-color:#f7f7f7;
+  border-radius: 15px;
+  padding:20px;}   
+
+  .sqs-block-image .design-layout-stack .image-title-wrapper+.image-subtitle-wrapper .image-subtitle {
+    text-align:center;
+  }
+}
