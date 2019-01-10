@@ -1,0 +1,35 @@
+<meta name="msvalidate.01" content="BA4E9BD4855862DFBDDA6A72D1645A24" />
+<script>
+  window.intercomSettings = {
+    app_id: "lc24fiep"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/lc24fiep';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(window).scroll( function(){
+        $('.timeline-list').each( function(i){
+            var scrollTop     = $(window).scrollTop();
+            var elementOffset = $(this).offset().top - $(this).outerHeight()/2;
+            if( scrollTop > elementOffset ){
+                $(this).addClass('triggered');
+            }
+        }); 
+    });
+});
+</script> 
+
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyANVY7TR7Z1rqFSvwHNnmY_aZk7Eeny0x0&libraries=places"></script>
+   
+   //FOOTER
+   
+   <!-- SQUARE STUDIO ANIMATED TIMELINE PLUGIN START -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<style type="text/css">
+.timeline-item{opacity:1;transform:translateY(0);transition:all ease-in-out 400ms;-webkit-transition:all ease-in-out 400ms;-moz-transition:all ease-in-out 400ms;-ms-transition:all ease-in-out 400ms}.triggered{opacity:0!important;transform:translateY(40px)!important}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){function a(){b(),c()}function b(){$(".timeline-item").each(function(a){var c=($(this).outerHeight(),$(this).offset().top);$(window).scrollTop()+$(window).height()<c&&$(this).addClass("triggered")})}function c(){$(window).scroll(function(){$(".timeline-item").each(function(a){var b=0*$(this).outerHeight()+50,c=$(this).offset().top+b;$(window).scrollTop()+$(window).height()>c&&$(this).removeClass("triggered")})})}function d(){MutationObserver=window.MutationObserver||window.WebKitMutationObserver,new MutationObserver(function(a){for(var b=0;b<a.length;b++){if("attributes"===a[b].type){var d=new Event("pageChange");document.dispatchEvent(d)}}}).observe(document.body,{attributes:!0,attributeFilter:["id"]})}a(),document.addEventListener("pageChange",function(){$(window).unbind("scroll"),a()}),window.onload=d});
+</script>
