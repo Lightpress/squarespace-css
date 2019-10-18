@@ -1,0 +1,8 @@
+//Two columns that go back to 1 column on mobile - use unique block ID//
+
+@media screen and (min-width: 640px) {
+  #block-yui_3_17_2_1_1566479666984_40463 {
+    column-count: 2;
+    column-gap: 60px;
+  }
+}
